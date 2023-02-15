@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Song",
+            "request": "launch",
+            "mainClass": "Song",
+            "projectName": "java_88013df5",
+            "vmArgs": "--module-path \"C:\\Users\\me\\Downloads\\openjfx-19.02.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\" --add-modules javafx.controls,javafx.fxml",
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"C:\\Users\\me\\Downloads\\openjfx-19.02.1_windows-x64_bin-sdk\\javafx-sdk-19.0.2.1\\lib\" --add-modules javafx.controls,javafx.fxml",
+        }
+    ]
+}
